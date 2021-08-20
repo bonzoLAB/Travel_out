@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Out</title>
+</head>
+<body>
+    <!--everything will be showcase except the menu-->
+    <section class="showcase ">
+        <header>
+            <h2 class="logo">Travel Out</h2>
+            <div class="toggle "></div>
+        </header>
+
+       <video src="4.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring The World</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quibusdam molestiae voluptates distinctio enim non quod temporibus vel minus suscipit?</p>
+            <a href="#">Explore</a>
+        </div>
+
+     <!-- <ul class="social">  
+                <li><a href="#"><img class="facebook" src="facebook.png" alt=""></a></li>
+                <li><a href="#"><img class="twitter" src="twitter.png" alt=""></a></li>
+                <li><a href="#"><img class="insta" src="instagram.png" alt=""></a></li>
+            </ul>  -->
+            <div class="social_logos">
+                <div>
+                    <img class="facebook" src="facebook.png" alt="">
+                </div>
+                <div>
+                    <img class="twitter" src="twitter.png" alt="">
+                </div>
+                <div>
+                    <img class="insta" src="instagram.png" alt="">
+                </div>
+            </div>
+
+<!---
+ <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href = "#"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#"><i class = "fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#"><i class = "fab fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+
+-->
+
+
+
+
+
+        </section>
+
+        <div class="menu">
+            <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">News</a></li>
+             <li><a href="#">Destination</a></li>
+             <li><a href="#">Blog</a></li>
+             <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <script>
+         const menuToggle = document.querySelector('.toggle')
+         const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () => {
+           menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+
+ });
+         </script>
+</body>
+</html>
